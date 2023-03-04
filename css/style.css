@@ -5,49 +5,20 @@
 }
 
 .header{
-  display: flex;
-  justify-content: space-between;
-  margin-top: 30px;
-  margin-bottom: 30px;
+    border: 2px solid  blue;
+    width: 300px;
+    margin-top: 30px;
+    margin-left: 30px;
+    border-radius: 20px;
+    padding: 30px;
 }
 
-.fut{
-    display: flex;
-    justify-content: space-between;
-}
-
-.nav{
-   border-radius: 20px;
-   border: solid 1.6px rgb(238, 181, 10);
-   width: 320px;
-   padding: 20px 20px 40px;
-   display: block;
-}
-
-.a1{
+h2{
     text-align: center;
-    font-size: 30px;
 }
 
-h4{
-    margin-right: 6px;
-}
-
-.w1{
+#wer{
     display: flex;
-}
-.w2{
-    display: flex;
-}
-.w3{
-    display: flex;
-}
-.w4{
-    display: flex;
-}
-.w5{
-    display: flex;
-}
-.w6{
-    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
