@@ -4,11 +4,6 @@
     box-sizing: border-box;
 }
 
-.container{
-    display: flex;
-    flex-wrap: wrap;
-}
-
 .was{
     border: 2px solid  blue;
     width: 250px;
@@ -17,5 +12,11 @@
     text-align: center;
     border-radius: 20px;
     padding: 10px;
+   
+}
+#wer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
